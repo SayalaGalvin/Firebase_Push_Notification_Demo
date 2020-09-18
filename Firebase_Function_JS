@@ -1,0 +1,46 @@
+const functions = require("firebase-functions");
+
+//start
+const admin = require("firebase-admin");
+
+admin.initializeApp(functions.config().firebase);
+var msgData;
+
+exports.notificationTrigger = functions.firestore
+  .document("Notification/{notificationId}")
+  .onCreate((snapshot, context) => {
+    msgData = snapshot.data();
+    var userRef = admin.firestore().collection("Token").doc(msgData.User);
+    return userRef.get().then((doc) => {
+      if (!doc.exists) {
+        console.log("No Devices");
+      } else {
+        token = doc.data().Token;
+        var payload = {
+          notification: {
+            title: msgData.Title,
+            body: msgData.Body,
+          },
+          data: {
+            sendername: "Flutter Demo",
+            message: msgData.Body,
+            click_action: 'FLUTTER_NOTIFICAFION_CLICK'
+          },
+        };
+
+        return admin
+          .messaging()
+          .sendToDevice(token, payload)
+          .then((response) => {
+            console.log(payload);
+            console.log(token);
+            console.log(msgData.User);
+            console.log("pushed notification");
+            console.log(response.results[0].error);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+    });
+  });
