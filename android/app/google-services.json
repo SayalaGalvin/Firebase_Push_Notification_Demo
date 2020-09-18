@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "696203193041",
+    "firebase_url": "https://medifast-89983.firebaseio.com",
+    "project_id": "medifast-89983",
+    "storage_bucket": "medifast-89983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696203193041:android:090ec58a617615412ab3f0",
+        "android_client_info": {
+          "package_name": "com.example.flutter_notification_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696203193041-mii0chfg81s4m9n85vlcnsc25ubup3e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_notification_demo",
+            "certificate_hash": "fa1de0cdd37ff7a469d5dd8b9ad87e16eac135fe"
+          }
+        },
+        {
+          "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOes86PBrMeqR3bBJ_TMFyA4s8xvwtQH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696203193041-4c8p7f8b7o0h7qdfoi0vlpn25bbemhc8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mobiPharmacyProject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696203193041:android:e9c97d71ea5bd93e2ab3f0",
+        "android_client_info": {
+          "package_name": "com.example.mobi_pharmacy_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOes86PBrMeqR3bBJ_TMFyA4s8xvwtQH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696203193041-4c8p7f8b7o0h7qdfoi0vlpn25bbemhc8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mobiPharmacyProject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696203193041:android:634ad4faaa1145912ab3f0",
+        "android_client_info": {
+          "package_name": "com.example.reg_pharm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOes86PBrMeqR3bBJ_TMFyA4s8xvwtQH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696203193041-lcr0m060f9j4lq92vku4gf6hron25tjn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "696203193041-4c8p7f8b7o0h7qdfoi0vlpn25bbemhc8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mobiPharmacyProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
